@@ -1,0 +1,15 @@
+Requirement already satisfied: setuptools in c:\users\natus\anaconda3\envs\be_proj_env\lib\site-packages (59.8.0)
+Requirement already satisfied: typing-extensions in c:\users\natus\anaconda3\envs\be_proj_env\lib\site-packages (3.7.4.3)
+Collecting cmdstanpy==0.4
+  Downloading cmdstanpy-0.4.0-py3-none-any.whl (22 kB)
+Requirement already satisfied: numpy in c:\users\natus\anaconda3\envs\be_proj_env\lib\site-packages (from cmdstanpy==0.4) (1.21.5)
+Requirement already satisfied: pandas in c:\users\natus\anaconda3\envs\be_proj_env\lib\site-packages (from cmdstanpy==0.4) (1.5.3)
+Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\natus\anaconda3\envs\be_proj_env\lib\site-packages (from pandas->cmdstanpy==0.4) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in c:\users\natus\anaconda3\envs\be_proj_env\lib\site-packages (from pandas->cmdstanpy==0.4) (2023.3)
+Requirement already satisfied: six>=1.5 in c:\users\natus\anaconda3\envs\be_proj_env\lib\site-packages (from python-dateutil>=2.8.1->pandas->cmdstanpy==0.4) (1.16.0)
+Installing collected packages: cmdstanpy
+  Attempting uninstall: cmdstanpy
+    Found existing installation: cmdstanpy 0.9.5
+    Uninstalling cmdstanpy-0.9.5:
+      Successfully uninstalled cmdstanpy-0.9.5
+Successfully installed cmdstanpy-0.4.0
